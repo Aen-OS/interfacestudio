@@ -5,10 +5,11 @@ TODO:
 - use icon cloud from magic UI to display skills on bigger screens
 - make "scroll down for more" disappear as user scrolls up
 - if needed, change CTA title to font-dm-sans instead of font-manrope
+- complete social media links in footer
 
 POLICY:
 
-- Research what
+- Research why websites have cookies and privacy policy and make one.
 
 SERVICES:
 
