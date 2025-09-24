@@ -44,7 +44,7 @@ export default function RootLayout({
           <Navbar />
           <div className="">
             {children}
-            <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+            <footer className="footer footer-horizontal footer-center bg-base-200 text-primary-content rounded p-10">
               <nav>
                 <div className="grid grid-flow-col gap-4">
                   <a>

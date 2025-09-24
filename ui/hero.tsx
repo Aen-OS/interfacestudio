@@ -12,11 +12,11 @@ export default function Hero() {
             individuals
           </Highlighter>{" "}
           🙋‍♂️🙋‍♀️ and
-          <Highlighter action="highlight" delay={1000} padding={0}>
+          <Highlighter action="highlight" delay={500} padding={0}>
             small businesses
           </Highlighter>{" "}
           📈 build their online presence without{" "}
-          <Highlighter action="crossed-off" delay={1500}>
+          <Highlighter action="crossed-off" delay={1000}>
             breaking the bank
           </Highlighter>{" "}
           💰
@@ -24,23 +24,23 @@ export default function Hero() {
       </div>
       <div className="row-start-6 flex items-center justify-start">
         <h2 className="text-base font-dm-sans">
-          <Highlighter action="highlight" color="#87CEFA" delay={3000}>
+          <Highlighter action="highlight" color="#87CEFA" delay={2000}>
             reach me on
           </Highlighter>
           <br></br>Email:
-          <Highlighter action="underline" delay={3000}>
+          <Highlighter action="underline" delay={2000}>
             <a href="mailto:anedjai0@gmail.com" className="link link-hover">
               anedjai0@gmail.com
             </a>
           </Highlighter>{" "}
           <br></br>Whatsapp:
-          <Highlighter action="underline" delay={3000}>
+          <Highlighter action="underline" delay={2000}>
             <a href="tel:+447988295902" className="link link-hover">
               +447988295902
             </a>
           </Highlighter>{" "}
           <br></br>free to chat{" "}
-          <Highlighter action="highlight" color="#87CEFA" delay={3500}>
+          <Highlighter action="highlight" color="#87CEFA" delay={2500}>
             Mon-Sun 09:30-17:00
           </Highlighter>
         </h2>

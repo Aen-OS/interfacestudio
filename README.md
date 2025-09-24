@@ -1,3 +1,5 @@
+Mobile > iPad > Laptop > Desktop
+
 TODO:
 
 - insert calendly link in sticky-banner top of page.
@@ -26,4 +28,6 @@ BLOG:
 
   PHASE 2:
 
-- TRANSFER FROM NEXTJS TO ASTRO, WRITE BLOGS IN
+- TRANSFER FROM NEXTJS TO ASTRO, WRITE BLOGS IN MARKDOWN
+
+---

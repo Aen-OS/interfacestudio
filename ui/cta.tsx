@@ -2,7 +2,7 @@ import { Highlighter } from "./magicui/rough-notation";
 
 export default function CTA() {
   return (
-    <section className="py-16 border-t border-black text-primary-content">
+    <section className="py-16 border-t sm:border-none border-black text-primary-content">
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-6 font-manrope">
           Ready to Build Something?
