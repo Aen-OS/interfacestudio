@@ -1,3 +1,6 @@
+// services include web design, seo, development, social media, branding
+// website from scratch, redesign, consulting
+
 export default function Services() {
   return (
     <>

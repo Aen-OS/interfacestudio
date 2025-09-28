@@ -8,9 +8,12 @@ export default function CTA() {
           Ready to Build Something?
         </h2>
         <p className="text-lg">
-          If you have a <Highlighter action="circle">project</Highlighter> you'd
-          like to discuss, email me at{" "}
-          <Highlighter action="underline">
+          If you have a{" "}
+          <Highlighter color="#87CEFA" action="circle">
+            project
+          </Highlighter>{" "}
+          you'd like to discuss, email me at{" "}
+          <Highlighter color="#87CEFA" action="underline">
             <a className="link link-hover" href="mailto:anedjai@outlook.com">
               anedjai@outlook.com
             </a>

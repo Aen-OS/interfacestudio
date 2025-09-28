@@ -1,5 +1,7 @@
 Mobile > iPad > Laptop > Desktop
 
+front page > services page > blog (coming soon)
+
 TODO:
 
 - insert calendly link in sticky-banner top of page.
@@ -16,9 +18,9 @@ POLICY:
 SERVICES:
 
 - web design
-- web development
+- web development (i adapt to the needs of the client but I work with jamstack, wordpress, webflow/framer, so whether you need a simple website with a couple of pages to inform people about your business or something else more complex consisting of a lot of functionality and features, we can build it together.)
 - SEO (do a course and learn the basics - apply it to website and other projects)
-- Branding (learn the process, apply it to self and projects)
+- Branding (learn the process, apply it to self and projects) (this probably includes logo design)
 - jamstack???
 
 BLOG:
