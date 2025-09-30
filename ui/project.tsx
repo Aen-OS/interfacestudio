@@ -1,4 +1,4 @@
-export default function Card({ src, company, link }) {
+export default function ProjectCard({ src, company, link }) {
   return (
     <div className="block border-black border-2 p-4 rounded-xl">
       {/* <img

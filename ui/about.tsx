@@ -2,11 +2,11 @@ import Skills from "./skills";
 
 export default function About() {
   return (
-    <div className="flex-1 grid grid-cols-1 grid-rows-4 gap-1 min-h-screen text-primary-content">
+    <div className="flex-1 grid grid-cols-1 grid-rows-5 gap-1 min-h-screen text-primary-content">
       <h1 className="text-7xl row-start-1 row-span-1 flex items-center justify-center font-manrope font-bold">
         About Me
       </h1>
-      <div className="mt-10 row-start-2 row-span-3 flex-col items-center justify-center text-base font-dm-sans">
+      <div className="mt-10 row-start-2 row-span-2 flex-col items-center justify-center text-base font-dm-sans">
         <p className="">
           I'm a self-made 25 year old freelance web designer and developer.
           Growing up I'd spend most of my time surfing the web, learning and
@@ -25,7 +25,9 @@ export default function About() {
           have an honest conversation.
         </p>
       </div>
-      <Skills />
+      <div className="row-start-4 row-span-2 flex items-center justify-center">
+        <Skills />
+      </div>
     </div>
   );
 }

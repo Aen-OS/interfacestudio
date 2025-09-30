@@ -40,9 +40,9 @@ export default function Hero() {
               +447988295902
             </a>
           </Highlighter>{" "}
-          <br></br>free to chat{" "}
+          <br></br>free to chat:{" "}
           <Highlighter action="highlight" color="#87CEFA" delay={2500}>
-            Mon-Sun 09:30-17:00
+            whenever
           </Highlighter>
         </h2>
       </div>

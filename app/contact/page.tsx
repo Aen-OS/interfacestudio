@@ -2,7 +2,7 @@ import { Highlighter } from "@/ui/magicui/rough-notation";
 
 export default function Contact() {
   return (
-    <div className="text-primary-content grid grid-cols-1 grid-rows-4">
+    <div className="text-primary-content grid grid-cols-1 grid-rows-4 min-h-screen">
       <div className="row-start-2">
         <h1 className="text-4xl font-bold font-manrope mb-5">
           Interested in starting a project?

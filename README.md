@@ -1,15 +1,14 @@
 Mobile > iPad > Laptop > Desktop
 
-front page > services page > blog (coming soon)
+front page > services page
 
 TODO:
 
 - insert calendly link in sticky-banner top of page.
 - make front hero responsive (including h1 and h2)
 - use icon cloud from magic UI to display skills on bigger screens
-- make "scroll down for more" disappear as user scrolls up
 - if needed, change CTA title to font-dm-sans instead of font-manrope
-- complete social media links in footer
+- link social media icons in footer
 
 POLICY:
 
@@ -33,3 +32,28 @@ BLOG:
 - TRANSFER FROM NEXTJS TO ASTRO, WRITE BLOGS IN MARKDOWN
 
 ---
+
+ABOUT ME VS ABOUT YOU
+
+I am a web designer & developer and I can build a website for your business, design & code, and help you with branding, either from scratch or improving/upgrading
+
+I help business/individuals/start-ups establish their online presence fast, securely, & well [without breaking the bank/without hassle/without ]
+
+I help [target audience] achieve [a benefit they desire]
+The benefit answers your listener's question "How will my life be different?"
+
+PROMISE A BREKATHROUGH
+
+I help [target audience] achieve [a benefit they desire] without [negative consequence]
+
+PASSION
+
+I'm passionate about [something I value] to achieve [something my target audience values]
+
+MISSION
+
+I'm on a mission to [ABC] to achieve [something my target audience values]
+
+STRENGTH
+
+I'm known for [my strength] to achieve [something my target audience values]
