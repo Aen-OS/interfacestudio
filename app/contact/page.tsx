@@ -2,21 +2,24 @@ import { Highlighter } from "@/ui/magicui/rough-notation";
 
 export default function Contact() {
   return (
-    <div className="text-primary-content grid grid-cols-1 grid-rows-4 min-h-screen">
+    <div className="text-base-content grid grid-cols-1 grid-rows-4 min-h-screen">
       <div className="row-start-2 row-span-1 flex flex-col justify-center">
         <h1 className="text-5xl font-bold font-manrope mb-5">
           Interested in starting a project?
         </h1>
         <p className="text-base">
           If you have a project you{"'"}d like to discuss, you can email me at{" "}
-          <Highlighter action="underline" delay={0}>
-            <a className="link link-hover" href="mailto:anedjai@outlook.com">
+          <Highlighter action="underline" delay={0} color="oklch(70% 0.2 230)">
+            <a
+              className="link link-hover font-bold"
+              href="mailto:anedjai@outlook.com"
+            >
               anedjai@outlook.com
             </a>
           </Highlighter>{" "}
           or call me on{" "}
-          <Highlighter action="underline" delay={0}>
-            <a className="link link-hover" href="tel:+447988295902">
+          <Highlighter action="underline" delay={0} color="oklch(70% 0.2 230)">
+            <a className="link link-hover font-bold" href="tel:+447988295902">
               +447988295902
             </a>
           </Highlighter>{" "}

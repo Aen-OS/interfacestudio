@@ -12,14 +12,14 @@ export default function Home() {
     <>
       <Hero />
       <About />
-      <div className="text-primary-content grid grid-cols-1 grid-rows-4 min-h-screen">
-        <div className="row-span-1 row-start-1 flex items-center justify-center">
+      <div className="text-base-content flex grid grid-cols-1 min-h-screen">
+        <div className="flex items-center justify-center">
           <h1 className="text-7xl text-center font-manrope font-bold">
             My Work
           </h1>
           {/* future feature: only projects are shown at first but user can show templates and then filter projects/templates using filters: personal, e-commerce, docs, education, */}
         </div>
-        <div className="row-start-2 flex items-center justify-center">
+        <div className="flex-1 flex-col items-center justify-center">
           <ProjectCard
             src={null}
             company="bloom academy"

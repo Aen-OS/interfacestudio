@@ -2,11 +2,14 @@ import Skills from "./skills";
 
 export default function About() {
   return (
-    <div className="flex-1 grid grid-cols-1 grid-rows-5 gap-1 min-h-screen text-primary-content">
-      <h1 className="text-7xl row-start-1 row-span-1 flex items-center justify-center font-manrope font-bold">
+    <div
+      id="about"
+      className="flex-1 flex grid grid-cols-1 min-h-screen text-base-content py-8"
+    >
+      <h1 className="text-7xl text-center font-manrope font-bold mb-10">
         About Me
       </h1>
-      <div className="mt-10 row-start-2 row-span-2 flex-col items-center justify-center text-base font-dm-sans">
+      <div className="flex-1 flex-col items-center justify-center text-base font-dm-sans text-center">
         <p className="">
           I'm 25 years old. Self-made. A freelance web designer and developer
           who grew up glued to a screen. Most of my childhood? Surfing the web,
@@ -23,13 +26,13 @@ export default function About() {
           functional websites that actually work for your business.
         </p>
         <p className="">
-          Need an online presence? Want to build a professional brand? Whether
-          your project is complex or beautifully simple, let's talk. Get in
-          touch. We'll have an honest conversation about what you need, what's
-          possible, and how we can work together to make it happen.
+          So do you need an online presence? Want to build a professional brand?
+          Whether your project is complex or beautifully simple, let's talk. Get
+          in touch. We'll have an honest conversation about what you need,
+          what's possible, and how we can work together to make it happen.
         </p>
       </div>
-      <div className="row-start-4 row-span-2 flex items-center justify-center">
+      <div className="row-start-4 row-span-1 flex items-center justify-center">
         <Skills />
       </div>
     </div>

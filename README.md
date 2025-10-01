@@ -29,6 +29,7 @@ BLOG:
   PHASE 2:
 
 - TRANSFER FROM NEXTJS TO ASTRO, WRITE BLOGS IN MARKDOWN
+- include services page?
 
 ---
 
@@ -60,11 +61,12 @@ I'm known for [my strength] to achieve [something my target audience values]
 OLD EDITS:
 
 ABOUT ME:
-{/_ <p className="">
+{/\_ <p className="">
 I'm a self-made 25 year old freelance web designer and developer.
 Growing up I'd spend most of my time surfing the web, learning and
 researching something, or entertaining myself with video content and
 browser games (rip Adobe Flash, what a good companion it was).
+
 </p>
 <p className="">
 So I've always been familiar with websites, and for the past few

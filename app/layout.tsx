@@ -35,16 +35,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="wireframe">
+    <html lang="en" data-theme="main">
       <body
-        className={`${manrope.variable} ${dmSans.variable} antialiased bg-base-200`}
+        className={`${manrope.variable} ${dmSans.variable} antialiased bg-base-300`}
       >
         <div className="flex flex-col min-h-screen mx-auto max-w-sm">
           {/* <Banner /> */}
           <Navbar />
           <div className="">
             {children}
-            <footer className="footer footer-horizontal footer-center bg-base-200 text-primary-content rounded p-10">
+            <footer className="footer footer-horizontal footer-center bg-base-300 text-base-content rounded p-10 w-fit">
               <nav>
                 <div className="grid grid-flow-col gap-4">
                   <a>

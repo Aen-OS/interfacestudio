@@ -1,6 +1,6 @@
 export default function Blog() {
   return (
-    <div className="text-primary-content grid grid-cols-1 grid-rows-4 min-h-screen">
+    <div className="text-base-content grid grid-cols-1 grid-rows-4 min-h-screen">
       <div className="row-start-2 row-span-2 flex flex-col justify-center">
         <h1 className="text-5xl font-bold font-manrope mb-5">
           blog Starting Soon!
