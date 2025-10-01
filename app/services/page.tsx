@@ -48,7 +48,7 @@ export default function Services() {
           link={"/services/web-dev"}
         >
           I develop fast and secure websites using modern technologies and if
-          you need something simple? I've got you covered with Jamstack
+          you need something simple? I&apos;ve got you covered with Jamstack
           solutions.
         </ServiceCard>
         <ServiceCard
