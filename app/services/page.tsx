@@ -1,32 +1,75 @@
 import ServiceCard from "@/ui/service";
+import CTA from "@/ui/cta";
 
 // services include web design, seo, development & jamstack, social media, branding
 // website from scratch, redesign, consulting
 
 export default function Services() {
   return (
-    <div className="text-primary-content grid grid-cols-1 grid-rows-4 min-h-screen">
-      <div className="row-start-2">
-        <h1 className="text-4xl font-bold font-manrope mb-5">
-          What I Can Do For <span>You</span>
+    <div className="text-primary-content grid grid-cols-1 grid-rows-8 min-h-screen">
+      <div className="row-start-2 row-span-1 flex flex-col items-center justify-center">
+        <h1 className="text-5xl font-bold font-manrope mb-5">
+          What I Can Do For <span className="text-info">You</span>
         </h1>
         {/* graphics on web dev, web design, seo,  */}
         <h2 className="text-xl font-dm-sans">
           I offer a range of services to help you establish a strong online
+          presence.
         </h2>
-        {/* three cards in the middle of the page, for ipad and smaller make them stack in column -> make card hoverable and clickable for users to click on and learn more about the services */}
-        <div className="grid grid-cols-1 gap-4">
-          <ServiceCard title="Freelance Web Design" icon={null}>
-            I design mobile-first responsive websites.
-          </ServiceCard>
-          <ServiceCard title="Freelance Web Development" icon={null}>
-            I develop fast and secure websites using modern technologies. Need
-            something simpler? I've got you covered with Jamstack solutions.
-          </ServiceCard>
-          <ServiceCard title="Branding" icon={null}>
-            We collaborate and I help you develop your brand identity, .
-          </ServiceCard>
-        </div>
+      </div>
+      {/* three cards in the middle of the page, for ipad and smaller make them stack in column -> make card hoverable and clickable for users to click on and learn more about the services */}
+      <div className="grid grid-cols-1 row-start-3 row-span-4 py-10 gap-4">
+        <ServiceCard
+          title="Freelance Web Design"
+          icon={
+            <svg
+              className="w-10 h-10"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m24 7.5v12c0 2.481-2.019 4.5-4.5 4.5h-15c-2.481 0-4.5-2.019-4.5-4.5v-13c0-2.481 2.019-4.5 4.5-4.5h10c.276 0 .5.224.5.5s-.224.5-.5.5h-10c-1.93 0-3.5 1.57-3.5 3.5v2.5h6.5c.276 0 .5.224.5.5s-.224.5-.5.5h-6.5v9.5c0 1.93 1.57 3.5 3.5 3.5h15c1.93 0 3.5-1.57 3.5-3.5v-9.5h-1.5c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h1.5v-1.5c0-.276.224-.5.5-.5s.5.224.5.5zm-21-1.5c0 .552.448 1 1 1s1-.448 1-1-.448-1-1-1-1 .448-1 1zm2.5 13c-.276 0-.5.224-.5.5s.224.5.5.5h13c.276 0 .5-.224.5-.5s-.224-.5-.5-.5zm.5-13c0 .552.448 1 1 1s1-.448 1-1-.448-1-1-1-1 .448-1 1zm5 0c0-.552-.448-1-1-1s-1 .448-1 1 .448 1 1 1 1-.448 1-1zm.253 4.019c7.125-8.332 7.8-9.118 7.837-9.16 1.141-1.137 2.958-1.137 4.074-.022 1.115 1.118 1.109 2.941-.012 4.065l-8.172 8.815s-.005.003-.008.005c-.01.157-.009.314-.039.471-.316 1.626-1.81 2.807-3.551 2.807h-3.95c-.458 0-.877-.21-1.15-.578-.271-.365-.352-.825-.221-1.261.444-1.472 1.832-4.856 5.19-5.138.001-.001.001-.003.003-.005zm1.202.132c.678.193 1.289.57 1.746 1.125.283.343.477.737.611 1.151l2.104-2.269c-.388-1.142-1.369-1.933-2.635-2.141-.549.643-1.162 1.359-1.826 2.135zm.975 1.762c-.478-.58-1.181-.913-1.93-.913-2.866.114-4.089 3.15-4.481 4.45-.088.265.135.558.414.55h3.95c1.264 0 2.344-.84 2.569-1.997.146-.75-.044-1.512-.521-2.09zm1.585-4.755c1.187.346 2.129 1.124 2.647 2.195l4.769-5.144c.746-.748.751-1.938.025-2.666-.725-.724-1.909-.725-2.638 0-.006.008-.387.45-4.803 5.614z" />
+            </svg>
+          }
+          link={"/services/web-design"}
+        >
+          I design mobile-first responsive websites.
+        </ServiceCard>
+        <ServiceCard
+          title="Freelance Web Development"
+          icon={
+            <svg
+              className="w-10 h-10"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="m7.339 14.699c-.215.216-.34.52-.339.842 0 .321.128.624.357.851l2.478 2.237c.205.186.221.501.036.706-.185.206-.502.22-.706.036l-2.494-2.253c-.437-.431-.669-.984-.671-1.574s.227-1.146.645-1.563l2.515-2.346c.201-.188.519-.177.706.024.188.202.178.519-.024.706l-2.502 2.334zm16.661-9.199v13c0 2.481-2.019 4.5-4.5 4.5h-15c-2.481 0-4.5-2.019-4.5-4.5v-13c0-2.481 2.019-4.5 4.5-4.5h15c2.481 0 4.5 2.019 4.5 4.5zm-23 0v2.5h22v-2.5c0-1.93-1.57-3.5-3.5-3.5h-15c-1.93 0-3.5 1.57-3.5 3.5zm22 13v-9.5h-22v9.5c0 1.93 1.57 3.5 3.5 3.5h15c1.93 0 3.5-1.57 3.5-3.5zm-19-12.5c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1zm3 0c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1zm3 0c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1zm4.841 5.635c-.2-.188-.519-.177-.706.024-.188.202-.178.519.024.706l2.489 2.322c.228.228.353.531.352.854 0 .321-.128.624-.341.835l-2.494 2.253c-.205.186-.221.501-.036.706.185.206.501.22.706.036l2.511-2.269c.42-.415.652-.969.654-1.559s-.227-1.146-.657-1.575l-2.502-2.334z" />
+            </svg>
+          }
+          link={"/services/web-dev"}
+        >
+          I develop fast and secure websites using modern technologies and if
+          you need something simple? I've got you covered with Jamstack
+          solutions.
+        </ServiceCard>
+        <ServiceCard
+          title="Branding"
+          icon={
+            <svg
+              className="w-10 h-10"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path d="m22.682,4.227l-2.884-2.884c-.838-.838-1.997-1.318-3.182-1.318h-5.116C9.019.024,7,2.043,7,4.524v7.976c0,.276.224.5.5.5s.5-.224.5-.5v-7.976c0-1.93,1.57-3.5,3.5-3.5h5.116c.129,0,.256.024.384.039v3.437c0,1.379,1.121,2.5,2.5,2.5h3.459c.016.136.041.271.041.408v9.092c0,.854-.311,1.675-.875,2.314-.183.207-.163.523.044.706.096.084.213.125.331.125.139,0,.276-.058.375-.169.726-.822,1.125-1.88,1.125-2.977V7.408c0-1.185-.48-2.344-1.318-3.182Zm-3.182,1.773c-.827,0-1.5-.673-1.5-1.5V1.317c.404.174.777.419,1.091.733l2.884,2.884c.307.307.546.672.72,1.066h-3.194ZM2.5,0C1.121,0,0,1.121,0,2.5v9.758c0,.921.374,1.823,1.025,2.475l1.121,1.121c.098.098.226.146.354.146s.256-.049.354-.146l1.121-1.121c.651-.651,1.025-1.554,1.025-2.475V2.5c0-1.379-1.121-2.5-2.5-2.5Zm1.5,12.258c0,.658-.267,1.302-.732,1.768l-.768.768-.768-.768c-.466-.466-.732-1.109-.732-1.768V2.5c0-.827.673-1.5,1.5-1.5s1.5.673,1.5,1.5v9.758Zm12.5,1.742h-6c-1.93,0-3.5,1.57-3.5,3.5v3c0,1.93,1.57,3.5,3.5,3.5h6c1.93,0,3.5-1.57,3.5-3.5v-3c0-1.93-1.57-3.5-3.5-3.5Zm-6,1h6c.759,0,1.432.347,1.891.883l-3.571,3.57c-.705.705-1.934.705-2.639,0l-3.571-3.57c.459-.536,1.131-.883,1.891-.883Zm8.5,5.5c0,1.379-1.121,2.5-2.5,2.5h-6c-1.379,0-2.5-1.121-2.5-2.5v-3c0-.245.046-.477.112-.7l3.362,3.361c.542.542,1.261.84,2.026.84s1.484-.298,2.026-.84l3.361-3.361c.066.224.112.456.112.7v3Z" />
+            </svg>
+          }
+          link={"/services/branding"}
+        >
+          We collaborate and I help you develop your brand identity through logo
+          development, color schemes, typography, and overall visual style.
+        </ServiceCard>
+      </div>
+      <div className="row-start-7 row-span-2">
+        <CTA />
       </div>
     </div>
   );

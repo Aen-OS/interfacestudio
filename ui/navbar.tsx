@@ -4,7 +4,7 @@ import Logo from "../public/penpaperlogo.webp";
 export default function Navbar() {
   return (
     <>
-      <div className="navbar bg-transparent fixed mt-5 text-primary-content w-fit p-0 border-0">
+      <div className="navbar bg-transparent fixed mt-5 text-primary-content w-fit p-0 border-0 z-50">
         <div className="flex-1">
           <a href="/" className="text-xl font-bold text-center">
             AN/Design

@@ -2,16 +2,17 @@ export default function ServiceCard({
   title,
   children,
   icon,
+  link,
 }: {
   title: string;
   children: React.ReactNode;
   icon: React.ReactNode;
+  link: string;
 }) {
   return (
-    <a href="#" className="group relative block h-64 sm:h-80 lg:h-96">
+    <a href={link} className="group relative block h-64 sm:h-80 lg:h-96">
       <span className="absolute inset-0 border-2 border-dashed border-black"></span>
-
-      <div className="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+      <div className="relative flex h-full transform items-end border-2 border-black bg-base-100 transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
         <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
           {icon}
           {/* <svg

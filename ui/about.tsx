@@ -8,21 +8,25 @@ export default function About() {
       </h1>
       <div className="mt-10 row-start-2 row-span-2 flex-col items-center justify-center text-base font-dm-sans">
         <p className="">
-          I'm a self-made 25 year old freelance web designer and developer.
-          Growing up I'd spend most of my time surfing the web, learning and
-          researching something, or entertaining myself with video content and
-          browser games (rip Adobe Flash, what a good companion it was).
+          I'm 25 years old. Self-made. A freelance web designer and developer
+          who grew up glued to a screen. Most of my childhood? Surfing the web,
+          diving into research rabbits holes, getting lost in video content and
+          browser games. Adobe Flash was my companion—a good one at that. Rest
+          in peace, old friend.
         </p>
         <p className="">
-          So I've always been familiar with websites, and for the past few
-          years, I've taken it up a notch turning myself into a front-end
-          engineer (check out my tech cloud!).
+          Websites have always been in my blood. But a few years ago, I decided
+          to go deeper, transforming casual familiarity into professional
+          expertise as a front-end engineer. Check out my tech cloud if you're
+          curious about what I work with—it's evolved quite a bit from those
+          Flash game days, and I've built skills that turn ideas into polished,
+          functional websites that actually work for your business.
         </p>
         <p className="">
-          If you're interested in establishing your online presence or creating
-          a professional brand, whether you think you need something complex or
-          have a simple project in mind, feel free to get in touch and we can
-          have an honest conversation.
+          Need an online presence? Want to build a professional brand? Whether
+          your project is complex or beautifully simple, let's talk. Get in
+          touch. We'll have an honest conversation about what you need, what's
+          possible, and how we can work together to make it happen.
         </p>
       </div>
       <div className="row-start-4 row-span-2 flex items-center justify-center">
