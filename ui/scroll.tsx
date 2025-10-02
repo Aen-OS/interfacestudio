@@ -47,7 +47,9 @@ export default function ScrollBlurText() {
       ref={textRef}
       className="row-start-7 row-span-2 md:row-start-8 md:row-span-1 flex flex-col items-center justify-center"
     >
-      <p className="test text-sm font-dm-sans">Scroll down for more</p>
+      <p id="about" className="test text-sm font-dm-sans">
+        Scroll down for more
+      </p>
       <div className="animate-bounce mt-2">
         <svg
           className="w-6 h-6 text-base=content"
