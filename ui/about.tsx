@@ -2,11 +2,11 @@ import Skills from "./skills";
 
 export default function About() {
   return (
-    <div className="flex-1 flex grid grid-cols-1 min-h-screen text-base-content py-8">
+    <div className="flex grid grid-cols-1 min-h-screen text-base-content pt-8">
       <h1 className="text-7xl text-center font-manrope font-bold mb-10">
         About Me
       </h1>
-      <div className="flex-1 flex-col items-center justify-center text-base font-dm-sans text-center">
+      <div className="flex flex-col items-center justify-center text-base font-dm-sans text-center">
         <p className="">
           I'm 25 years old. Self-made. A freelance web designer and developer
           who grew up glued to a screen. Most of my childhood? Surfing the web,
@@ -29,7 +29,7 @@ export default function About() {
           what's possible, and how we can work together to make it happen.
         </p>
       </div>
-      <div className="row-start-4 row-span-1 flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <Skills />
       </div>
     </div>
