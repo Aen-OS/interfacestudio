@@ -34,6 +34,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="main">
+      <head>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-V3SWC9W2VG"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-V3SWC9W2VG');
+      `,
+          }}
+        />
+      </head>
       <body
         className={`${manrope.variable} ${dmSans.variable} antialiased bg-base-300`}
       >
