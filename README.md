@@ -10,7 +10,9 @@ TODO:
 
 POLICY:
 
-- Research why websites have cookies and privacy policy and make one.
+- Research why websites have cookies and privacy policy.
+- make cookie banner for users to accept.
+- make cookies and privacy policy page for users to read.
 
 SERVICES:
 

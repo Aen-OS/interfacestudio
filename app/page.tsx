@@ -22,11 +22,7 @@ export default function Home() {
         {/* two buttons: template & project */}
         {/* filter function: portfolio, e-commerce, education, business */}
         <div className="flex-1 flex-col items-center justify-center">
-          <ProjectCard
-            src={null}
-            company="bloom academy"
-            link="bloom-academy-atd.pages.dev"
-          />
+          <ProjectCard src={null} company="wheel good bike shop" link={null} />
         </div>
       </div>
       <CTA />

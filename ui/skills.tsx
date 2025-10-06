@@ -8,11 +8,11 @@ const slugs = [
   "react",
   "nodedotjs",
   "express",
-  "python",
+  "supabase",
   "nextdotjs",
+  "cloudflare",
   "postgresql",
   "mongodb",
-  "vercel",
   "netlify",
   "git",
   "github",
@@ -22,6 +22,10 @@ const slugs = [
   "wordpress",
   "eleventy",
   "jamstack",
+  "cloudflarepages",
+  "cloudflareworkers",
+  "webflow",
+  "framer",
 ];
 
 export default function Skills() {
