@@ -13,10 +13,11 @@ export default function Home() {
       <Hero />
       <About />
       <div className="text-base-content flex grid grid-cols-1">
-        <div className="flex items-center justify-center py-20">
-          <h1 className="text-7xl text-center font-manrope font-bold">
+        <div className="flex flex-col items-center justify-center py-20">
+          <h1 className="text-6xl md:text-7xl text-center font-manrope font-bold">
             My Work
           </h1>
+          <p className="text-base md:text-lg mt-5 text-center">I like to work with React & Next.JS/Astro but for most front end projects, I'll use Webflow.<br/><br/> Take a look below at my coded front-end projects!</p>
         </div>
         {/* future feature: only projects are shown at first but user can show templates and then filter projects/templates using filters: personal, e-commerce, docs, education, */}
         {/* two buttons: template & project */}

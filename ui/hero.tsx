@@ -1,4 +1,4 @@
-import { TypingAnimation } from "../ui/magicui/typinganimation";
+// import { TypingAnimation } from "../ui/magicui/typinganimation";
 import { Highlighter } from "../ui/magicui/rough-notation";
 import ScrollDown from "./scroll";
 
