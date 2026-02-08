@@ -4,7 +4,7 @@ export default function Policy() {
         <div id="privacy" className="">
           <h1 className="text-6xl font-manrope">Privacy & Cookies</h1>
           <p className="text-base md:text-lg mt-5">
-            This privacy policy sets out how PixelnFlow Ltd, also referred to as 'we' in the following document, uses and protects any information that you provide when you use this website.
+            This privacy policy sets out how PixelnFlow Ltd (“we,” “our,” or “us”) uses and protects any information that you provide when you use this website.
           </p>
           <h2 className="text-4xl font-manrope mt-10">What Data Do We Collect?</h2>
           <h3 className="text-2xl font-manrope mt-5">Information You Provide to Us</h3>
@@ -47,12 +47,6 @@ From time to time, we may also use your information to contact you for market re
           <p className="text-base md:text-lg mt-5">We take complaints very seriously. If you’ve any reason to complain about the ways we handle your privacy, please email us at an.interstudio@gmail.com.</p>
       
         </div>
-        {/* <div id="terms" className="mt-20">
-          <h1 className="text-6xl font-manrope">Terms of Service</h1>
-          <p className="text-base md:text-lg mt-5">
-            By using our website and services, you agree to comply with and be bound by the following terms and conditions. Please review these terms carefully before using our website.
-          </p>
-        </div> */}
       </section>
   );
 }
